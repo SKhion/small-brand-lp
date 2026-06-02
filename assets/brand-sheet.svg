@@ -1,213 +1,130 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="980" viewBox="0 0 1400 980" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1493" height="1053" viewBox="0 0 1493 1053" role="img" aria-labelledby="title desc">
   <title id="title">納品物イメージ ブランド整理PDF</title>
-  <desc id="desc">ブランド整理PDF全6ページの納品イメージ。各ページの項目をアイコンと文章が揃うカード形式で整理しています。</desc>
+  <desc id="desc">ブランド整理PDF全6枚の納品イメージ。現状整理、届ける相手、魅力と言葉、Instagram、LP・商品ページ、次にやることを整理します。</desc>
   <defs>
-    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#5f5549" flood-opacity="0.12"/>
-    </filter>
-    <linearGradient id="cardFill" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#fffdf9"/>
-      <stop offset="1" stop-color="#f8f1e8"/>
-    </linearGradient>
     <style>
-      .bg{fill:#fffdf9}
-      .frame{fill:none;stroke:#eadfD2;stroke-width:2}
-      .mainTitle{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:76px;font-weight:700;letter-spacing:.16em;fill:#2f2d2a}
-      .subTitle{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:34px;font-weight:700;letter-spacing:.12em;fill:#b79c78}
-      .lead{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:22px;font-weight:700;letter-spacing:.04em;fill:#3c3934}
-      .page{fill:url(#cardFill);stroke:#e1d5c8;stroke-width:1.6;filter:url(#softShadow)}
-      .pageHead{fill:#f3eadf}
-      .numberCircle{fill:#b79c78}
-      .num{font-family:Georgia,serif;font-size:28px;font-weight:700;fill:#fff}
-      .pageTitle{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:22px;font-weight:700;letter-spacing:.03em;fill:#2f2d2a}
-      .pageNo{font-family:Georgia,serif;font-size:17px;fill:#5c554c}
-      .row{fill:#fffaf4;stroke:#eadfd2;stroke-width:1.3}
-      .iconBg{fill:#efe4d7}
-      .iconLine{fill:none;stroke:#b79c78;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
-      .iconFill{fill:#b79c78}
-      .label{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:17px;font-weight:800;fill:#403b35}
-      .smallLine{stroke:#d7ccbe;stroke-width:2;stroke-linecap:round}
-      .footerIcon{fill:#f0e7dc}
-      .footer{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:29px;letter-spacing:.08em;fill:#2f2d2a}
+      .bg{fill:#fff}
+      .border{fill:none;stroke:#d8d8d8;stroke-width:2}
+      .title{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:86px;font-weight:700;letter-spacing:.18em;fill:#121212}
+      .subtitle{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:42px;font-weight:700;letter-spacing:.12em;fill:#a97a43}
+      .lead{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:25px;font-weight:800;letter-spacing:.08em;fill:#111}
+      .section-title{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:28px;font-weight:900;letter-spacing:.04em;fill:#111}
+      .body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:23px;font-weight:700;letter-spacing:.03em;fill:#111}
+      .num-circle{fill:#c89b6c}
+      .num{font-family:Georgia,serif;font-size:42px;font-weight:700;fill:#fff}
+      .mini-num{font-family:Georgia,serif;font-size:21px;font-weight:700;fill:#fff}
+      .rule{stroke:#caa178;stroke-width:1.5}
+      .divider{stroke:#caa178;stroke-width:1.4}
+      .icon{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .footer{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:27px;font-weight:800;letter-spacing:.04em;fill:#111}
+      .doc{fill:none;stroke:#8c8c8c;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
     </style>
   </defs>
 
-  <rect class="bg" width="1400" height="980" rx="24"/>
-  <rect class="frame" x="1" y="1" width="1398" height="978" rx="24"/>
+  <rect class="bg" x="0" y="0" width="1493" height="1053"/>
+  <rect class="border" x="1" y="1" width="1491" height="1051"/>
 
-  <text class="mainTitle" x="700" y="92" text-anchor="middle">納品物イメージ</text>
-  <text class="subTitle" x="700" y="154" text-anchor="middle">ブランド整理PDF（全6枚）</text>
-  <text class="lead" x="700" y="211" text-anchor="middle">売り出す前に、言葉・見せ方・見てもらう順番を整理します。</text>
+  <text class="title" x="746.5" y="118" text-anchor="middle">納品物イメージ</text>
+  <text class="subtitle" x="746.5" y="190" text-anchor="middle">ブランド整理PDF（全6枚）</text>
+  <line class="rule" x1="720" y1="225" x2="773" y2="225"/>
+  <text class="lead" x="746.5" y="265" text-anchor="middle">売り出す前に、言葉・見せ方・見てもらう順番を整理します。</text>
 
-  <!-- Page 1 -->
-  <g transform="translate(74 266)">
-    <rect class="page" width="392" height="250" rx="14"/>
-    <rect class="pageHead" width="392" height="62" rx="14"/>
-    <circle class="numberCircle" cx="36" cy="32" r="20"/>
-    <text class="num" x="36" y="41" text-anchor="middle">1</text>
-    <text class="pageTitle" x="74" y="40">現状整理シート</text>
-    <text class="pageNo" x="338" y="39">p.01</text>
-    <g transform="translate(24 82)">
-      <rect class="row" width="344" height="46" rx="8"/>
-      <circle class="iconBg" cx="32" cy="23" r="17"/>
-      <path class="iconLine" d="M24 18h16v14H24zM28 18c-5-7 5-10 8 0M36 18c5-7-5-10-8 0M32 18v14"/>
-      <text class="label" x="72" y="23" dy=".35em">商品・サービスの概要</text>
-      <rect class="row" y="60" width="344" height="46" rx="8"/>
-      <circle class="iconBg" cx="32" cy="83" r="17"/>
-      <path class="iconLine" d="M21 81c0-8 8-14 19-14s19 6 19 14-8 14-19 14c-4 0-8-1-11-2l-8 3 3-7c-2-2-3-5-3-8z"/>
-      <text class="label" x="72" y="83" dy=".35em">今の悩み・迷い</text>
-      <rect class="row" y="120" width="344" height="46" rx="8"/>
-      <circle class="iconBg" cx="32" cy="143" r="17"/>
-      <path class="iconLine" d="M23 137l17-8 8 8-8 17-18 5-5-5zM40 129l8 8"/>
-      <text class="label" x="72" y="143" dy=".35em">ブランド名・印象</text>
+  <!-- 1. 現状整理シート -->
+  <g transform="translate(84 315)">
+    <circle class="num-circle" cx="64" cy="28" r="28"/>
+    <text class="num" x="64" y="43" text-anchor="middle">1</text>
+    <text class="section-title" x="122" y="39">現状整理シート</text>
+    <path class="icon" d="M57 106h40v44H57zM51 106h52M77 106v44M61 96c-11-18 15-21 16 0M94 96c11-18-15-21-16 0"/>
+    <line class="rule" x1="36" y1="178" x2="430" y2="178"/>
+    <text class="body" x="56" y="217">・商品・サービスの概要</text>
+    <text class="body" x="56" y="260">・今の悩み・迷い</text>
+    <text class="body" x="56" y="303">・ブランド名・印象</text>
+    <line class="rule" x1="0" y1="350" x2="474" y2="350"/>
+  </g>
+
+  <!-- 2. 届ける相手の整理 -->
+  <g transform="translate(541 315)">
+    <line class="divider" x1="-31" y1="0" x2="-31" y2="295"/>
+    <circle class="num-circle" cx="54" cy="28" r="28"/>
+    <text class="num" x="54" y="43" text-anchor="middle">2</text>
+    <text class="section-title" x="112" y="39">届ける相手の整理</text>
+    <circle class="icon" cx="74" cy="98" r="19"/>
+    <path class="icon" d="M39 151c5-27 24-43 55-43s50 16 55 43"/>
+    <line class="rule" x1="58" y1="178" x2="400" y2="178"/>
+    <text class="body" x="58" y="217">・届けたい相手</text>
+    <text class="body" x="58" y="260">・相手の悩み</text>
+    <line class="rule" x1="0" y1="350" x2="431" y2="350"/>
+  </g>
+
+  <!-- 3. 魅力と言葉の整理 -->
+  <g transform="translate(1003 315)">
+    <line class="divider" x1="-29" y1="0" x2="-29" y2="295"/>
+    <circle class="num-circle" cx="54" cy="28" r="28"/>
+    <text class="num" x="54" y="43" text-anchor="middle">3</text>
+    <text class="section-title" x="112" y="39">魅力と言葉の整理</text>
+    <path class="icon" d="M39 103l25-27h82l25 27-85 50zM39 103h171M64 76l22 77M146 76l-60 77"/>
+    <line class="rule" x1="30" y1="178" x2="400" y2="178"/>
+    <text class="body" x="56" y="217">・選ばれる理由</text>
+    <text class="body" x="56" y="260">・伝える魅力</text>
+    <text class="body" x="56" y="303">・プロフィール・説明文</text>
+    <line class="rule" x1="0" y1="350" x2="390" y2="350"/>
+  </g>
+
+  <!-- 4. Instagramの見せ方 -->
+  <g transform="translate(84 650)">
+    <circle class="num-circle" cx="56" cy="28" r="28"/>
+    <text class="num" x="56" y="43" text-anchor="middle">4</text>
+    <text class="section-title" x="112" y="39">Instagramの見せ方</text>
+    <rect class="icon" x="40" y="78" width="45" height="75" rx="6"/>
+    <line class="icon" x1="57" y1="88" x2="68" y2="88"/>
+    <circle cx="63" cy="143" r="3" fill="#111"/>
+    <line class="rule" x1="33" y1="178" x2="430" y2="178"/>
+    <text class="body" x="56" y="217">・プロフィール文</text>
+    <text class="body" x="56" y="260">・投稿テーマ</text>
+    <text class="body" x="56" y="303">・ハイライト案</text>
+  </g>
+
+  <!-- 5. LP・商品ページ -->
+  <g transform="translate(541 650)">
+    <line class="divider" x1="-31" y1="0" x2="-31" y2="290"/>
+    <circle class="num-circle" cx="54" cy="28" r="28"/>
+    <text class="num" x="54" y="43" text-anchor="middle">5</text>
+    <text class="section-title" x="112" y="39">LP・商品ページ</text>
+    <rect class="icon" x="30" y="78" width="59" height="38"/>
+    <line class="icon" x1="59" y1="116" x2="59" y2="141"/>
+    <line class="icon" x1="43" y1="141" x2="75" y2="141"/>
+    <line class="rule" x1="30" y1="178" x2="400" y2="178"/>
+    <g transform="translate(31 194)">
+      <circle class="num-circle" cx="14" cy="14" r="14"/>
+      <text class="mini-num" x="14" y="22" text-anchor="middle">1</text>
+      <text class="body" x="56" y="22">共感・導入</text>
+      <circle class="num-circle" cx="14" cy="51" r="14"/>
+      <text class="mini-num" x="14" y="59" text-anchor="middle">2</text>
+      <text class="body" x="56" y="59">魅力・価値</text>
+      <circle class="num-circle" cx="14" cy="88" r="14"/>
+      <text class="mini-num" x="14" y="96" text-anchor="middle">3</text>
+      <text class="body" x="56" y="96">具体的な内容</text>
+      <circle class="num-circle" cx="14" cy="125" r="14"/>
+      <text class="mini-num" x="14" y="133" text-anchor="middle">4</text>
+      <text class="body" x="56" y="133">相談・購入まで</text>
     </g>
   </g>
 
-  <!-- Page 2 -->
-  <g transform="translate(504 266)">
-    <rect class="page" width="392" height="250" rx="14"/>
-    <rect class="pageHead" width="392" height="62" rx="14"/>
-    <circle class="numberCircle" cx="36" cy="32" r="20"/>
-    <text class="num" x="36" y="41" text-anchor="middle">2</text>
-    <text class="pageTitle" x="74" y="40">届ける相手の整理</text>
-    <text class="pageNo" x="338" y="39">p.02</text>
-    <g transform="translate(24 88)">
-      <rect class="row" width="344" height="56" rx="8"/>
-      <circle class="iconBg" cx="32" cy="28" r="18"/>
-      <circle class="iconFill" cx="32" cy="22" r="8"/>
-      <path class="iconFill" d="M20 41c4-13 20-13 24 0z"/>
-      <text class="label" x="78" y="23" dy=".35em">届けたい相手</text>
-      <line class="smallLine" x1="78" y1="40" x2="306" y2="40"/>
-      <rect class="row" y="78" width="344" height="56" rx="8"/>
-      <circle class="iconBg" cx="32" cy="106" r="18"/>
-      <path class="iconFill" d="M32 117c-18-13 1-31 13-13 12-18 31 0 13 13l-13 13z"/>
-      <text class="label" x="78" y="101" dy=".35em">相手の悩み</text>
-      <line class="smallLine" x1="78" y1="118" x2="306" y2="118"/>
-    </g>
+  <!-- 6. 次にやること -->
+  <g transform="translate(1003 650)">
+    <line class="divider" x1="-29" y1="0" x2="-29" y2="290"/>
+    <circle class="num-circle" cx="54" cy="28" r="28"/>
+    <text class="num" x="54" y="43" text-anchor="middle">6</text>
+    <text class="section-title" x="112" y="39">次にやること</text>
+    <path class="icon" d="M39 153V80M39 85c42-24 75 25 116 0v59c-41 25-74-24-116 0"/>
+    <line class="rule" x1="30" y1="178" x2="400" y2="178"/>
+    <text class="body" x="56" y="217">・今すぐ整えること</text>
+    <text class="body" x="56" y="260">・次に作るもの</text>
+    <text class="body" x="56" y="303">・優先順位</text>
   </g>
 
-  <!-- Page 3 -->
-  <g transform="translate(934 266)">
-    <rect class="page" width="392" height="250" rx="14"/>
-    <rect class="pageHead" width="392" height="62" rx="14"/>
-    <circle class="numberCircle" cx="36" cy="32" r="20"/>
-    <text class="num" x="36" y="41" text-anchor="middle">3</text>
-    <text class="pageTitle" x="74" y="40">魅力と言葉の整理</text>
-    <text class="pageNo" x="338" y="39">p.03</text>
-    <g transform="translate(24 82)">
-      <rect class="row" width="344" height="46" rx="8"/>
-      <circle class="iconBg" cx="32" cy="23" r="17"/>
-      <path class="iconLine" d="M22 21l9-10h22l9 10-20 21zM22 21h40M31 11l11 31M53 11L42 42"/>
-      <text class="label" x="78" y="23" dy=".35em">選ばれる理由</text>
-      <rect class="row" y="60" width="344" height="46" rx="8"/>
-      <circle class="iconBg" cx="32" cy="83" r="17"/>
-      <path class="iconLine" d="M32 67c2 10 7 15 17 17-10 2-15 7-17 17-2-10-7-15-17-17 10-2 15-7 17-17z"/>
-      <text class="label" x="78" y="83" dy=".35em">伝える魅力</text>
-      <rect class="row" y="120" width="344" height="46" rx="8"/>
-      <circle class="iconBg" cx="32" cy="143" r="17"/>
-      <path class="iconLine" d="M23 153l23-23 8 8-23 23-12 4zM43 133l8 8"/>
-      <text class="label" x="78" y="143" dy=".35em">プロフィール・説明文</text>
-    </g>
-  </g>
-
-  <!-- Page 4 -->
-  <g transform="translate(74 552)">
-    <rect class="page" width="392" height="288" rx="14"/>
-    <rect class="pageHead" width="392" height="62" rx="14"/>
-    <circle class="numberCircle" cx="36" cy="32" r="20"/>
-    <text class="num" x="36" y="41" text-anchor="middle">4</text>
-    <text class="pageTitle" x="74" y="40">Instagramの見せ方</text>
-    <text class="pageNo" x="338" y="39">p.04</text>
-    <g transform="translate(24 84)">
-      <rect class="row" width="210" height="50" rx="8"/>
-      <circle class="iconBg" cx="32" cy="25" r="16"/>
-      <circle class="iconFill" cx="32" cy="25" r="8"/>
-      <text class="label" x="70" y="25" dy=".35em">プロフィール文</text>
-      <rect class="row" y="66" width="210" height="50" rx="8"/>
-      <circle class="iconBg" cx="32" cy="91" r="16"/>
-      <rect class="iconFill" x="25" y="84" width="14" height="14" rx="3"/>
-      <text class="label" x="70" y="91" dy=".35em">投稿テーマ</text>
-      <rect class="row" y="132" width="210" height="50" rx="8"/>
-      <circle class="iconBg" cx="32" cy="157" r="16"/>
-      <path class="iconFill" d="M25 146h14v25l-7-6-7 6z"/>
-      <text class="label" x="70" y="157" dy=".35em">ハイライト案</text>
-      <g transform="translate(254 0)">
-        <rect x="0" y="0" width="84" height="190" rx="22" fill="#fff" stroke="#5a5148" stroke-width="4"/>
-        <rect x="28" y="10" width="28" height="5" rx="2" fill="#5a5148"/>
-        <circle class="iconFill" cx="24" cy="46" r="11"/>
-        <line class="smallLine" x1="44" y1="40" x2="68" y2="40"/>
-        <line class="smallLine" x1="44" y1="56" x2="64" y2="56"/>
-        <circle fill="#eadfd2" cx="23" cy="88" r="14"/>
-        <circle fill="#eadfd2" cx="43" cy="88" r="14"/>
-        <circle fill="#eadfd2" cx="63" cy="88" r="14"/>
-        <rect fill="#f0e7dc" x="12" y="120" width="26" height="26"/>
-        <rect fill="#f0e7dc" x="47" y="120" width="26" height="26"/>
-        <rect fill="#f0e7dc" x="12" y="154" width="26" height="22"/>
-        <rect fill="#f0e7dc" x="47" y="154" width="26" height="22"/>
-      </g>
-    </g>
-  </g>
-
-  <!-- Page 5 -->
-  <g transform="translate(504 552)">
-    <rect class="page" width="392" height="288" rx="14"/>
-    <rect class="pageHead" width="392" height="62" rx="14"/>
-    <circle class="numberCircle" cx="36" cy="32" r="20"/>
-    <text class="num" x="36" y="41" text-anchor="middle">5</text>
-    <text class="pageTitle" x="74" y="40">LP・商品ページ</text>
-    <text class="pageNo" x="338" y="39">p.05</text>
-    <g transform="translate(24 88)">
-      <rect class="row" width="344" height="168" rx="10"/>
-      <g transform="translate(24 24)">
-        <circle class="numberCircle" cx="14" cy="14" r="14"/>
-        <text class="num" x="14" y="21" font-size="15" text-anchor="middle">1</text>
-        <text class="label" x="52" y="14" dy=".35em">共感・導入</text>
-        <line class="smallLine" x1="176" y1="14" x2="294" y2="14"/>
-        <circle class="numberCircle" cx="14" cy="52" r="14"/>
-        <text class="num" x="14" y="59" font-size="15" text-anchor="middle">2</text>
-        <text class="label" x="52" y="52" dy=".35em">魅力・価値</text>
-        <line class="smallLine" x1="176" y1="52" x2="294" y2="52"/>
-        <circle class="numberCircle" cx="14" cy="90" r="14"/>
-        <text class="num" x="14" y="97" font-size="15" text-anchor="middle">3</text>
-        <text class="label" x="52" y="90" dy=".35em">具体的な内容</text>
-        <line class="smallLine" x1="176" y1="90" x2="294" y2="90"/>
-        <circle class="numberCircle" cx="14" cy="128" r="14"/>
-        <text class="num" x="14" y="135" font-size="15" text-anchor="middle">4</text>
-        <text class="label" x="52" y="128" dy=".35em">相談・購入まで</text>
-        <line class="smallLine" x1="176" y1="128" x2="294" y2="128"/>
-      </g>
-    </g>
-  </g>
-
-  <!-- Page 6 -->
-  <g transform="translate(934 552)">
-    <rect class="page" width="392" height="288" rx="14"/>
-    <rect class="pageHead" width="392" height="62" rx="14"/>
-    <circle class="numberCircle" cx="36" cy="32" r="20"/>
-    <text class="num" x="36" y="41" text-anchor="middle">6</text>
-    <text class="pageTitle" x="74" y="40">次にやること</text>
-    <text class="pageNo" x="338" y="39">p.06</text>
-    <g transform="translate(24 82)">
-      <rect class="row" width="344" height="50" rx="8"/>
-      <circle class="iconBg" cx="32" cy="25" r="17"/>
-      <path class="iconFill" d="M24 13h7v24h-7zM31 15c15-8 28 8 45-1v20c-17 9-30-7-45 1z"/>
-      <text class="label" x="86" y="25" dy=".35em">今すぐ整えること</text>
-      <rect class="row" y="66" width="344" height="50" rx="8"/>
-      <circle class="iconBg" cx="32" cy="91" r="17"/>
-      <path class="iconFill" d="M23 79l28 12-28 12z"/>
-      <text class="label" x="86" y="91" dy=".35em">次に作るもの</text>
-      <rect class="row" y="132" width="344" height="50" rx="8"/>
-      <circle class="iconBg" cx="32" cy="157" r="17"/>
-      <rect class="iconFill" x="23" y="157" width="6" height="13"/>
-      <rect class="iconFill" x="33" y="149" width="6" height="21"/>
-      <rect class="iconFill" x="43" y="141" width="6" height="29"/>
-      <text class="label" x="86" y="157" dy=".35em">優先順位</text>
-    </g>
-  </g>
-
-  <g transform="translate(513 917)">
-    <circle class="footerIcon" cx="30" cy="0" r="28"/>
-    <path class="iconLine" d="M18-16h21l11 11v36H18zM39-16v13h11M25 6h18M25 17h18"/>
-    <text class="footer" x="84" y="10">納品形式：PDF / 6ページ</text>
+  <g transform="translate(538 980)">
+    <path class="doc" d="M0-30h29l17 17v54H0zM29-30v17h17M10 6h22M10 20h26"/>
+    <text class="footer" x="63" y="13">納品形式：PDF / 6ページ</text>
   </g>
 </svg>
