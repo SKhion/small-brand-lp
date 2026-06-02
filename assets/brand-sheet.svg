@@ -123,7 +123,7 @@
     <text class="body" x="56" y="303">・優先順位</text>
   </g>
 
-  <g transform="translate(538 980)">
+  <g transform="translate(538 1010)">
     <path class="doc" d="M0-30h29l17 17v54H0zM29-30v17h17M10 6h22M10 20h26"/>
     <text class="footer" x="63" y="13">納品形式：PDF / 6ページ</text>
   </g>
