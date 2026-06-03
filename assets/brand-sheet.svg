@@ -3,128 +3,65 @@
   <desc id="desc">ブランド整理PDF全6枚の納品イメージ。現状整理、届ける相手、魅力と言葉、Instagram、LP・商品ページ、次にやることを整理します。</desc>
   <defs>
     <style>
-      .bg{fill:#fff}
-      .border{fill:none;stroke:#d8d8d8;stroke-width:2}
-      .title{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:86px;font-weight:700;letter-spacing:.18em;fill:#121212}
-      .subtitle{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:42px;font-weight:700;letter-spacing:.12em;fill:#a97a43}
-      .lead{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:25px;font-weight:800;letter-spacing:.08em;fill:#111}
-      .section-title{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:28px;font-weight:900;letter-spacing:.04em;fill:#111}
-      .body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:23px;font-weight:700;letter-spacing:.03em;fill:#111}
-      .num-circle{fill:#c89b6c}
-      .num{font-family:Georgia,serif;font-size:42px;font-weight:700;fill:#fff}
-      .mini-num{font-family:Georgia,serif;font-size:21px;font-weight:700;fill:#fff}
-      .rule{stroke:#caa178;stroke-width:1.5}
-      .divider{stroke:#caa178;stroke-width:1.4}
-      .icon{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
-      .footer{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:27px;font-weight:800;letter-spacing:.04em;fill:#111}
-      .doc{fill:none;stroke:#8c8c8c;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+      .bg{fill:#fff}.frame{fill:none;stroke:#d8d8d8;stroke-width:2}.title{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:86px;font-weight:700;letter-spacing:.18em;fill:#121212}.subtitle{font-family:"Hiragino Mincho ProN","Yu Mincho",serif;font-size:42px;font-weight:700;letter-spacing:.12em;fill:#a97a43}.lead{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:25px;font-weight:800;letter-spacing:.08em;fill:#111}.card{fill:#fffefa;stroke:#dfd3c6;stroke-width:1.5}.cardHead{fill:#f7efe6}.numCircle{fill:#c89b6c}.num{font-family:Georgia,serif;font-size:38px;font-weight:700;fill:#fff}.miniNum{font-family:Georgia,serif;font-size:18px;font-weight:700;fill:#fff}.cardTitle{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:26px;font-weight:900;letter-spacing:.03em;fill:#111}.body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:21px;font-weight:800;letter-spacing:.02em;fill:#111}.rule{stroke:#caa178;stroke-width:1.6}.icon{fill:none;stroke:#111;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}.footer{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:27px;font-weight:800;letter-spacing:.04em;fill:#111}.doc{fill:none;stroke:#8c8c8c;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
     </style>
   </defs>
 
-  <rect class="bg" x="0" y="0" width="1493" height="1053"/>
-  <rect class="border" x="1" y="1" width="1491" height="1051"/>
+  <rect class="bg" width="1493" height="1053"/>
+  <rect class="frame" x="1" y="1" width="1491" height="1051"/>
 
   <text class="title" x="746.5" y="118" text-anchor="middle">納品物イメージ</text>
   <text class="subtitle" x="746.5" y="190" text-anchor="middle">ブランド整理PDF（全6枚）</text>
   <line class="rule" x1="720" y1="225" x2="773" y2="225"/>
-  <text class="lead" x="746.5" y="265" text-anchor="middle">売り出す前に、言葉・見せ方・見てもらう順番を整理します。</text>
+  <text class="lead" x="746.5" y="268" text-anchor="middle">売り出す前に、言葉・見せ方・見てもらう順番を整理します。</text>
 
-  <!-- 1. 現状整理シート -->
-  <g transform="translate(84 315)">
-    <circle class="num-circle" cx="64" cy="28" r="28"/>
-    <text class="num" x="64" y="43" text-anchor="middle">1</text>
-    <text class="section-title" x="122" y="39">現状整理シート</text>
-    <path class="icon" d="M57 106h40v44H57zM51 106h52M77 106v44M61 96c-11-18 15-21 16 0M94 96c11-18-15-21-16 0"/>
-    <line class="rule" x1="36" y1="178" x2="430" y2="178"/>
-    <text class="body" x="56" y="217">・商品・サービスの概要</text>
-    <text class="body" x="56" y="260">・今の悩み・迷い</text>
-    <text class="body" x="56" y="303">・ブランド名・印象</text>
-    <line class="rule" x1="0" y1="350" x2="474" y2="350"/>
+  <g transform="translate(90 315)">
+    <rect class="card" width="390" height="260" rx="16"/><rect class="cardHead" width="390" height="70" rx="16"/>
+    <circle class="numCircle" cx="44" cy="35" r="25"/><text class="num" x="44" y="48" text-anchor="middle">1</text><text class="cardTitle" x="88" y="45">現状整理シート</text>
+    <path class="icon" d="M62 103h40v44H62zM56 103h52M82 103v44M66 93c-11-18 15-21 16 0M99 93c11-18-15-21-16 0"/>
+    <line class="rule" x1="48" y1="165" x2="340" y2="165"/>
+    <text class="body" x="58" y="200">・商品・サービスの概要</text><text class="body" x="58" y="228">・今の悩み・迷い</text><text class="body" x="58" y="256">・ブランド名・印象</text>
   </g>
 
-  <!-- 2. 届ける相手の整理 -->
-  <g transform="translate(541 315)">
-    <line class="divider" x1="-31" y1="0" x2="-31" y2="295"/>
-    <circle class="num-circle" cx="54" cy="28" r="28"/>
-    <text class="num" x="54" y="43" text-anchor="middle">2</text>
-    <text class="section-title" x="112" y="39">届ける相手の整理</text>
-    <circle class="icon" cx="74" cy="98" r="19"/>
-    <path class="icon" d="M39 151c5-27 24-43 55-43s50 16 55 43"/>
-    <line class="rule" x1="58" y1="178" x2="400" y2="178"/>
-    <text class="body" x="58" y="217">・届けたい相手</text>
-    <text class="body" x="58" y="260">・相手の悩み</text>
-    <line class="rule" x1="0" y1="350" x2="431" y2="350"/>
+  <g transform="translate(552 315)">
+    <rect class="card" width="390" height="260" rx="16"/><rect class="cardHead" width="390" height="70" rx="16"/>
+    <circle class="numCircle" cx="44" cy="35" r="25"/><text class="num" x="44" y="48" text-anchor="middle">2</text><text class="cardTitle" x="88" y="45">届ける相手の整理</text>
+    <circle class="icon" cx="81" cy="105" r="19"/><path class="icon" d="M48 156c5-27 22-42 52-42s47 15 52 42"/>
+    <line class="rule" x1="58" y1="165" x2="332" y2="165"/>
+    <text class="body" x="58" y="204">・届けたい相手</text><text class="body" x="58" y="236">・相手の悩み</text>
   </g>
 
-  <!-- 3. 魅力と言葉の整理 -->
-  <g transform="translate(1003 315)">
-    <line class="divider" x1="-29" y1="0" x2="-29" y2="295"/>
-    <circle class="num-circle" cx="54" cy="28" r="28"/>
-    <text class="num" x="54" y="43" text-anchor="middle">3</text>
-    <text class="section-title" x="112" y="39">魅力と言葉の整理</text>
-    <path class="icon" d="M39 103l25-27h82l25 27-85 50zM39 103h171M64 76l22 77M146 76l-60 77"/>
-    <line class="rule" x1="30" y1="178" x2="400" y2="178"/>
-    <text class="body" x="56" y="217">・選ばれる理由</text>
-    <text class="body" x="56" y="260">・伝える魅力</text>
-    <text class="body" x="56" y="303">・プロフィール・説明文</text>
-    <line class="rule" x1="0" y1="350" x2="390" y2="350"/>
+  <g transform="translate(1014 315)">
+    <rect class="card" width="390" height="260" rx="16"/><rect class="cardHead" width="390" height="70" rx="16"/>
+    <circle class="numCircle" cx="44" cy="35" r="25"/><text class="num" x="44" y="48" text-anchor="middle">3</text><text class="cardTitle" x="88" y="45">魅力と言葉の整理</text>
+    <path class="icon" d="M48 108l24-26h88l24 26-68 45zM48 108h136M72 82l44 71M160 82l-44 71"/>
+    <line class="rule" x1="48" y1="165" x2="342" y2="165"/>
+    <text class="body" x="58" y="200">・選ばれる理由</text><text class="body" x="58" y="228">・伝える魅力</text><text class="body" x="58" y="256">・プロフィール・説明文</text>
   </g>
 
-  <!-- 4. Instagramの見せ方 -->
-  <g transform="translate(84 650)">
-    <circle class="num-circle" cx="56" cy="28" r="28"/>
-    <text class="num" x="56" y="43" text-anchor="middle">4</text>
-    <text class="section-title" x="112" y="39">Instagramの見せ方</text>
-    <rect class="icon" x="40" y="78" width="45" height="75" rx="6"/>
-    <line class="icon" x1="57" y1="88" x2="68" y2="88"/>
-    <circle cx="63" cy="143" r="3" fill="#111"/>
-    <line class="rule" x1="33" y1="178" x2="430" y2="178"/>
-    <text class="body" x="56" y="217">・プロフィール文</text>
-    <text class="body" x="56" y="260">・投稿テーマ</text>
-    <text class="body" x="56" y="303">・ハイライト案</text>
+  <g transform="translate(90 620)">
+    <rect class="card" width="390" height="270" rx="16"/><rect class="cardHead" width="390" height="70" rx="16"/>
+    <circle class="numCircle" cx="44" cy="35" r="25"/><text class="num" x="44" y="48" text-anchor="middle">4</text><text class="cardTitle" x="88" y="45">Instagramの見せ方</text>
+    <rect class="icon" x="58" y="92" width="46" height="76" rx="6"/><line class="icon" x1="75" y1="103" x2="87" y2="103"/><circle cx="81" cy="158" r="3" fill="#111"/>
+    <line class="rule" x1="48" y1="185" x2="340" y2="185"/>
+    <text class="body" x="58" y="222">・プロフィール文</text><text class="body" x="58" y="250">・投稿テーマ</text><text class="body" x="58" y="278">・ハイライト案</text>
   </g>
 
-  <!-- 5. LP・商品ページ -->
-  <g transform="translate(541 650)">
-    <line class="divider" x1="-31" y1="0" x2="-31" y2="290"/>
-    <circle class="num-circle" cx="54" cy="28" r="28"/>
-    <text class="num" x="54" y="43" text-anchor="middle">5</text>
-    <text class="section-title" x="112" y="39">LP・商品ページ</text>
-    <rect class="icon" x="30" y="78" width="59" height="38"/>
-    <line class="icon" x1="59" y1="116" x2="59" y2="141"/>
-    <line class="icon" x1="43" y1="141" x2="75" y2="141"/>
-    <line class="rule" x1="30" y1="178" x2="400" y2="178"/>
-    <g transform="translate(31 194)">
-      <circle class="num-circle" cx="14" cy="14" r="14"/>
-      <text class="mini-num" x="14" y="22" text-anchor="middle">1</text>
-      <text class="body" x="56" y="22">共感・導入</text>
-      <circle class="num-circle" cx="14" cy="51" r="14"/>
-      <text class="mini-num" x="14" y="59" text-anchor="middle">2</text>
-      <text class="body" x="56" y="59">魅力・価値</text>
-      <circle class="num-circle" cx="14" cy="88" r="14"/>
-      <text class="mini-num" x="14" y="96" text-anchor="middle">3</text>
-      <text class="body" x="56" y="96">具体的な内容</text>
-      <circle class="num-circle" cx="14" cy="125" r="14"/>
-      <text class="mini-num" x="14" y="133" text-anchor="middle">4</text>
-      <text class="body" x="56" y="133">相談・購入まで</text>
-    </g>
+  <g transform="translate(552 620)">
+    <rect class="card" width="390" height="270" rx="16"/><rect class="cardHead" width="390" height="70" rx="16"/>
+    <circle class="numCircle" cx="44" cy="35" r="25"/><text class="num" x="44" y="48" text-anchor="middle">5</text><text class="cardTitle" x="88" y="45">LP・商品ページ</text>
+    <rect class="icon" x="58" y="94" width="58" height="38"/><line class="icon" x1="87" y1="132" x2="87" y2="155"/><line class="icon" x1="71" y1="155" x2="103" y2="155"/>
+    <line class="rule" x1="48" y1="185" x2="340" y2="185"/>
+    <g transform="translate(58 205)"><circle class="numCircle" cx="13" cy="13" r="13"/><text class="miniNum" x="13" y="20" text-anchor="middle">1</text><text class="body" x="48" y="21">共感・導入</text><circle class="numCircle" cx="13" cy="43" r="13"/><text class="miniNum" x="13" y="50" text-anchor="middle">2</text><text class="body" x="48" y="51">魅力・価値</text><circle class="numCircle" cx="13" cy="73" r="13"/><text class="miniNum" x="13" y="80" text-anchor="middle">3</text><text class="body" x="48" y="81">具体的な内容</text><circle class="numCircle" cx="13" cy="103" r="13"/><text class="miniNum" x="13" y="110" text-anchor="middle">4</text><text class="body" x="48" y="111">相談・購入まで</text></g>
   </g>
 
-  <!-- 6. 次にやること -->
-  <g transform="translate(1003 650)">
-    <line class="divider" x1="-29" y1="0" x2="-29" y2="290"/>
-    <circle class="num-circle" cx="54" cy="28" r="28"/>
-    <text class="num" x="54" y="43" text-anchor="middle">6</text>
-    <text class="section-title" x="112" y="39">次にやること</text>
-    <path class="icon" d="M39 153V80M39 85c42-24 75 25 116 0v59c-41 25-74-24-116 0"/>
-    <line class="rule" x1="30" y1="178" x2="400" y2="178"/>
-    <text class="body" x="56" y="217">・今すぐ整えること</text>
-    <text class="body" x="56" y="260">・次に作るもの</text>
-    <text class="body" x="56" y="303">・優先順位</text>
+  <g transform="translate(1014 620)">
+    <rect class="card" width="390" height="270" rx="16"/><rect class="cardHead" width="390" height="70" rx="16"/>
+    <circle class="numCircle" cx="44" cy="35" r="25"/><text class="num" x="44" y="48" text-anchor="middle">6</text><text class="cardTitle" x="88" y="45">次にやること</text>
+    <path class="icon" d="M58 166V91M58 96c42-24 76 25 118 0v60c-42 25-76-24-118 0"/>
+    <line class="rule" x1="48" y1="185" x2="340" y2="185"/>
+    <text class="body" x="58" y="222">・今すぐ整えること</text><text class="body" x="58" y="250">・次に作るもの</text><text class="body" x="58" y="278">・優先順位</text>
   </g>
 
-  <g transform="translate(538 1010)">
-    <path class="doc" d="M0-30h29l17 17v54H0zM29-30v17h17M10 6h22M10 20h26"/>
-    <text class="footer" x="63" y="13">納品形式：PDF / 6ページ</text>
-  </g>
+  <g transform="translate(552 980)"><path class="doc" d="M0-30h29l17 17v54H0zM29-30v17h17M10 6h22M10 20h26"/><text class="footer" x="64" y="13">納品形式：PDF / 6ページ</text></g>
 </svg>
