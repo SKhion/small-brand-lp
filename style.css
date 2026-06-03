@@ -525,21 +525,22 @@ h4 {
   border: 1px solid var(--color-line);
   border-radius: var(--radius);
   box-shadow: var(--shadow-card);
-  overflow: hidden;
+  overflow: visible;
+  scroll-margin-top: 96px;
 }
 
 .sheet-image {
   display: none;
   width: 100%;
   height: auto;
-  max-height: 620px;
+  max-height: none;
   object-fit: contain;
   border-radius: calc(var(--radius) - 2px);
   box-shadow: 0 16px 40px rgba(60, 50, 40, 0.12);
 }
 
 .sheet-preview.has-image {
-  padding: 10px;
+  padding: 16px;
   background: var(--color-surface);
 }
 
