@@ -11,7 +11,7 @@
       .card{fill:#fffefa;stroke:#dfd3c6;stroke-width:1.5}
       .cardHead{fill:#f6eee5}
       .numCircle{fill:#c99b6c}
-      .num{font-family:Georgia,serif;font-size:34px;font-weight:700;fill:#fff;dominant-baseline:middle}
+      .num{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:27px;font-weight:800;fill:#fff;dominant-baseline:central;alignment-baseline:central}
       .cardTitle{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:25px;font-weight:800;letter-spacing:0;fill:#151515}
       .label{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:20px;font-weight:700;letter-spacing:0;fill:#191919}
       .sub{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Yu Gothic",sans-serif;font-size:17px;font-weight:600;letter-spacing:0;fill:#5d554d}
